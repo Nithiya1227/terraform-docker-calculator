@@ -49,8 +49,11 @@ SSH
 ## 1️⃣ Infrastructure Provisioning Using Terraform
 
 Created EC2 instance using Terraform
+
 Configured Security Group to allow inbound traffic on port 3000
+
 Attached Key Pair for secure SSH access
+
 Retrieved Public IP using Terraform output
 
 ## Commands Used
@@ -60,8 +63,11 @@ terraform apply
 ## 2️⃣ Docker Image Build
 
 Created Dockerfile for the Node.js application
+
 Built Docker image
+
 Exposed port 3000
+
 Ran container in detached mode
 
 ## Commands Used
@@ -71,10 +77,15 @@ docker run -d -p 3000:3000 calculator
 ## 3️⃣ Remote Deployment on EC2
 
 Connected to EC2 using SSH
+
 Installed Docker inside Ubuntu server
+
 Built Docker image inside EC2
+
 Ran container in detached mode
+
 Verified running container using:
+
 docker ps
 
 ------
@@ -100,11 +111,17 @@ Add your screenshots below after uploading them to your GitHub repository.
 ## 📚 Key Learnings
 
 Infrastructure as Code (IaC) using Terraform
+
 AWS cloud provisioning and networking fundamentals
+
 Docker container lifecycle management
+
 Linux server administration
+
 Security Group configuration
+
 Deployment troubleshooting
+
 Real-world DevOps workflow implementation
 
 ------
@@ -112,7 +129,11 @@ Real-world DevOps workflow implementation
 ## 🔮 Future Improvements
 
 Implement CI/CD using GitHub Actions
+
 Attach Elastic IP to EC2 instance
+
 Configure Nginx as Reverse Proxy
+
 Enable HTTPS using SSL certificate
+
 Automate Docker deployment using Terraform provisioners
