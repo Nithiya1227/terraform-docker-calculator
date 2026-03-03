@@ -1,21 +1,17 @@
 ## 🚀 Terraform + Docker Deployment on AWS EC2
 
+----
+
 ## 📌 Project Overview
 
 This project demonstrates an end-to-end deployment of a Dockerized Node.js Calculator application on AWS EC2 using Terraform (Infrastructure as Code).
 
 The objective of this project is to implement a real-world DevOps workflow including:
-
 Infrastructure provisioning using Terraform
-
 EC2 instance creation
-
 Security Group configuration
-
 Docker containerization
-
 Remote deployment via SSH
-
 Public application exposure
 
 -------
@@ -39,17 +35,11 @@ Public IP:3000 (Browser Access)
 ## 🛠️ Technologies Used
 
 AWS EC2 (Ubuntu)
-
 Terraform
-
 Docker
-
 Node.js
-
 Git & GitHub
-
 Linux (Ubuntu)
-
 SSH
 
 -----
@@ -93,9 +83,17 @@ docker ps
 
 Add your screenshots below after uploading them to your GitHub repository.
 
-Example:
+![EC2 running Screenshot](screenshots/ec2-run-tf.png)
 
-![Application Screenshot](images/app.png)
+![Terraform Applied Screenshot](screenshots/tf-applied.png)
+
+![Ubuntu Running Screenshot](screenshots/ubuntu-tf.png)
+
+![Docker created Screenshot](screenshots/docker-ps-created.png)
+
+![Output1  Screenshot](screenshots/tf-cals1.png)
+
+![output2 Screenshot](screenshots/tf-cals2.png)
 
 -----
 
