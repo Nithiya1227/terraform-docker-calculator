@@ -7,11 +7,17 @@
 This project demonstrates an end-to-end deployment of a Dockerized Node.js Calculator application on AWS EC2 using Terraform (Infrastructure as Code).
 
 The objective of this project is to implement a real-world DevOps workflow including:
+
 Infrastructure provisioning using Terraform
+
 EC2 instance creation
+
 Security Group configuration
+
 Docker containerization
+
 Remote deployment via SSH
+
 Public application exposure
 
 -------
@@ -35,11 +41,17 @@ Public IP:3000 (Browser Access)
 ## 🛠️ Technologies Used
 
 AWS EC2 (Ubuntu)
+
 Terraform
+
 Docker
+
 Node.js
+
 Git & GitHub
+
 Linux (Ubuntu)
+
 SSH
 
 -----
@@ -56,9 +68,11 @@ Attached Key Pair for secure SSH access
 
 Retrieved Public IP using Terraform output
 
+
 ## Commands Used
 terraform init
 terraform apply
+
 
 ## 2️⃣ Docker Image Build
 
@@ -73,6 +87,7 @@ Ran container in detached mode
 ## Commands Used
 docker build -t calculator .
 docker run -d -p 3000:3000 calculator
+
 
 ## 3️⃣ Remote Deployment on EC2
 
